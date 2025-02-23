@@ -16,7 +16,7 @@
 ```php
 make(
     string $key = 'alert',
-    string|FlashType $type = FlashType::INFO,
+    string|FlashType $type = FlashType::INFO->value,
     bool $withToast = true,
     bool $removable = true
 )
